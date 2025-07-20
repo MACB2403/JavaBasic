@@ -3,7 +3,7 @@ package package_01;
 public class Clase02Variables {
 
     public static void main(String[] args) {
-        System.out.println("*** MANEJO DE VARIABLES ***");
+        System.out.println("*** MANEJO DE VARIABLES Y CONSTANTES ***");
         //Variables
         String nombreProducto = new String("Smart Watch");
         double precio = 45.75;
