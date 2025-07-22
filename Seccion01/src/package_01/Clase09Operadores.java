@@ -56,5 +56,6 @@ public class Clase09Operadores {
         System.out.println("\tOPERADORES LÓGICOS");
         System.out.println("\t\t(a>b)&&(b>c) = " + ((a>b)&&(b>c)));
         System.out.println("\t\t(a>b)||(b>c) = " + ((a>b)||(b>c)));
-        System.out.println("\t\t!(a>b) = " + (!(a>b))
+        System.out.println("\t\t!(a>b) = " + (!(a>b)));
+}
 }
