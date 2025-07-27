@@ -26,7 +26,7 @@ public class Clase20Aritmetica2 {
     }
 
     public static void main(String[] args) {
-        System.out.println("SOBRE CARGA DE CONSTRUCTORES***");
+        System.out.println("SOBRECARGA DE CONSTRUCTORES***");
         Clase20Aritmetica2 objeto1 = new Clase20Aritmetica2();
         System.out.println("Dirección de memoria objeto1: "+objeto1);
         Clase20Aritmetica2 objeto2= new Clase20Aritmetica2(4,7);
