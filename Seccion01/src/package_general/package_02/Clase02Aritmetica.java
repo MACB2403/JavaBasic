@@ -1,11 +1,11 @@
 package package_general.package_02;
 
-public class ClaseAritmetica {
+public class Clase02Aritmetica {
     // ATRIBUTOS
     private int operador1; // encapsular por buenas prácticas
     private int operador2; // encapsular por buenas prácticas
     // CONSTRUCTORES
-    public ClaseAritmetica(int operador1,int operador2){
+    public Clase02Aritmetica(int operador1, int operador2){
         this.operador1=operador1;
         this.operador2=operador2;
     }

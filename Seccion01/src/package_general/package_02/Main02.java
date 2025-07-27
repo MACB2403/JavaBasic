@@ -4,7 +4,7 @@ public class Main02 {
     public static void main(String[] args) {
         System.out.println("*** PAQUETES Y ENCAPSULAMIENTO ***");
         System.out.println("\tValores iniciales");
-        ClaseAritmetica aritmetica1=new ClaseAritmetica(15,100);
+        Clase02Aritmetica aritmetica1=new Clase02Aritmetica(15,100);
         System.out.println("\t\tDir. Memoria: "+aritmetica1);
         System.out.println("\t\taritmetica1.getOperador1() = " + aritmetica1.getOperador1());
         System.out.println("\t\taritmetica1.getOperador2() = " + aritmetica1.getOperador2());
