@@ -1,6 +1,6 @@
 package package_general.package_04;
 
-public class ClaseAnimal {
+public class Clase04Animal {
     protected void comer(){
         System.out.println("\t\tComo muchas veces");
     }
@@ -9,7 +9,7 @@ public class ClaseAnimal {
     }
 
 }
-class ClasePerro extends ClaseAnimal{
+class Clase04Perro extends Clase04Animal {
     public void sonido(){
         System.out.println("\t\tGuau, Guau");
     }
