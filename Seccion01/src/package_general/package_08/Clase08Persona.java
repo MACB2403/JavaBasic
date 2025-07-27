@@ -2,7 +2,7 @@ package package_general.package_08;
 
 public class Clase08Persona {
     // ATRIBUTO ESTÁTICO (ASOCIADAS A LA CLASE)
-    static int contadorPersona=0;
+    private static int contadorPersona=0;
     // ATRIBUTOS ENCAPSULADOS
     private String nombre;
     private String apellido;
@@ -35,5 +35,9 @@ public class Clase08Persona {
 
     public int getIdPersona() {
         return this.idPersona;
+    }
+
+    public static int getContadorPersona() {
+        return Clase08Persona.contadorPersona;
     }
 }
