@@ -12,9 +12,9 @@ public class Main17 {
         miLista.add("Martes");
 
         List<String> miLista2 = new ArrayList<>();
-        miLista.add("Enero");
-        miLista.add("Febrero");
-        miLista.add("Marzo");
+        miLista2.add("Enero");
+        miLista2.add("Febrero");
+        miLista2.add("Marzo");
 
         for (Object elemento: miLista){
             System.out.println("Día: "+elemento);
